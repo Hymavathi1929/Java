@@ -1,0 +1,21 @@
+class BubbleSort{
+    static void bubble_sort(int a[],int n){
+        int temp,i,j;
+        for(i=0;i<n-1;i++){
+            for(j=0;j<n-1;j++){
+                if(a[j]>a[j+1]){
+                    temp=a[j];
+                    a[j]=a[j+1];
+                    a[j+1]=temp;
+                }
+            }
+        }
+        for(i=0;i<n;i++)
+            System.out.println(a[i]);
+    }
+    public static void main(String args[]){
+        int a[]={33,78,90,11,24,76};
+        int n=a.length;
+        bubble_sort(a,6);
+    }
+}
