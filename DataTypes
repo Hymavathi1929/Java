@@ -1,0 +1,23 @@
+class DataType {
+    int a;
+    short b;
+    long c;
+    byte d;
+    float e;
+    double f;
+    char g;
+    String h;
+    boolean i;
+    public static void main(String[] args) {
+        DataType d1=new DataType();
+        System.out.println(d1.a);
+        System.out.println(d1.b);
+        System.out.println(d1.c);
+        System.out.println(d1.d);
+        System.out.println(d1.e);
+        System.out.println(d1.f);
+        System.out.println(d1.g);
+        System.out.println(d1.h);
+        System.out.println(d1.i); 
+    }
+}
